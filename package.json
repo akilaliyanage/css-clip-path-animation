@@ -1,0 +1,19 @@
+{
+  "name": "port2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate": "^1.0.0",
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "lax": "0.0.40",
+    "scrollreveal": "^4.0.5"
+  }
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    .container{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+       
+       
+
+        .section{
+            padding: 10px;
+            background-color: rgb(20, 20, 231);
+            clip-path: circle(10% at 0% 0%);
+            transition:clip-path 0.5s ease-in-out;
+            border-radius: 10px;
+    
+            h1{
+                color:white
+            }
+            p{
+                color:white
+            }
+        }
+
+        &:hover .section{
+            clip-path: circle(75%);
+        }
+    }
+}

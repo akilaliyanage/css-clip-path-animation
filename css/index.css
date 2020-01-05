@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+body .container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body .container .section {
+  padding: 10px;
+  background-color: #1414e7;
+  -webkit-clip-path: circle(10% at 0% 0%);
+          clip-path: circle(10% at 0% 0%);
+  -webkit-transition: -webkit-clip-path 0.5s ease-in-out;
+  transition: -webkit-clip-path 0.5s ease-in-out;
+  transition: clip-path 0.5s ease-in-out;
+  transition: clip-path 0.5s ease-in-out, -webkit-clip-path 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+body .container .section h1 {
+  color: white;
+}
+
+body .container .section p {
+  color: white;
+}
+
+body .container:hover .section {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+/*# sourceMappingURL=index.css.map */
